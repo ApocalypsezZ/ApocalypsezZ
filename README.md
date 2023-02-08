@@ -1,6 +1,6 @@
 ## 🧾 Resume Generator
 
-https://visiky.github.io/resume?user=ApocalypsezZ&branch=master
+[简历](https://visiky.github.io/resume/?branch=master&template=template2&user=ApocalypsezZ)
 
 参数说明:
 
