@@ -53,7 +53,7 @@
         },
         {
             "award_time":"2023",
-            "award_info":"ICME2023"
+            "award_info":"CCF ICME2023"
         }
     ],
     "workExpList":[
@@ -98,7 +98,7 @@
         },
         {
             "project_time":"2022.07 - 2022.09",
-            "project_name":"小样本学习的量化样本注意力网络(ICME2023)",
+            "project_name":"小样本学习的量化样本注意力网络",
             "project_role":"核心开发者",
             "project_desc":"解决当前的小样本学习中由于任务分布偏移造成的特征过拟合等问题。",
             "project_content":"采用VQ模块来维持一个没有分类器偏差的特征空间，样本注意模块通过一个episode中的样本之间的关系来学习更适合分类的判别性特征。",
