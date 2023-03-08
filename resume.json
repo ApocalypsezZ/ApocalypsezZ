@@ -15,9 +15,9 @@
     "profile":{
         "name":"纪华一",
         "email":"906271147@qq.com",
-        "mobile":"186xxxx6565",
+        "mobile":"18640906565",
         "github":"https://leetcode.cn/u/li-kou-31/",
-        "zhihu":"https://www.zhihu.com/people/ji-hua-yi-25",
+        "zhihu":"",
         "workExpYear":""
     },
     "educationList":[
@@ -52,8 +52,24 @@
             "dataIndex":1
         },
         {
+            "award_time":"2021",
+            "award_info":"厦门市数据科竞赛 第一名",
+            "dataIndex":2
+        },
+        {
+            "award_time":"2022",
+            "award_info":"福建省”互联网+“大赛 金奖",
+            "dataIndex":3
+        },
+        {
             "award_time":"2023",
-            "award_info":"CCF ICME2023"
+            "award_info":"CCF-B ICME2023（在投）",
+            "dataIndex":3
+        },
+        {
+            "award_time":"2023",
+            "award_info":"CCF-A ICCV2023（在投）",
+            "dataIndex":4
         }
     ],
     "workExpList":[
@@ -73,43 +89,35 @@
     ],
     "projectList":[
         {
-            "project_time":"2018.12 - 2019.04",
-            "project_name":"电影推荐网站",
-            "project_role":"核心开发者",
-            "project_desc":"面向少量个人用户的小型电影推荐网站，实现了：注册，登录 ，好友，电影分享，在线看电影，电影推荐（基于隐语义模型）等常用功能。",
-            "project_content":"设计数据库，后端接口规划与实现；学习矩阵分解、推荐系统架构及常见算法并从头进行代码实现，通过开源数据集进行训练，部署到后端推断；完成简单的前端设计，并最终封装提交。",
+            "project_time":"2021.11 - 2022.02",
+            "project_name":"电商服装推荐尺码分析",
+            "project_role":"",
+            "project_desc":"该项目是一个服装尺码推荐分析的竞赛项目。数据集是从ModCloth和RentTheRunWay收集的，包含了服装产品的多种信息，例如唯一的产品ID，顾客的体型、评价、产品的标准尺寸等等。其中目标特征是fit，即是否合身。",
+            "project_content":"\n1. 处理非文本特征：GBDT。\n2. 处理评价文本：基于BERT，使用集成学习减少variability；将测试集预测结果（投票）作为软标签；对训练过程中的多个checkpoint（验证指标最高点 - Early Stopping）进行权重平均；使用来自HuggingFace的预训练多语言模型来提高性能；使用后处理来优化预测结果。取得了第一名的成绩。",
             "dataIndex":0
         },
         {
-            "project_time":"2022.04 - 2022.06",
-            "project_name":"早期肝癌患者最佳治疗方案预测系统",
-            "project_role":"项目负责人",
-            "project_desc":"输入患者的基础资料和意向治疗方式，计算出每个月的生存风险和中位生存时间并显示生存曲线。",
-            "project_content":"设计接口；生存分析领域模型逐个尝试；设计新模型并进行对比实验；封装部署。",
+            "project_time":"2022.02 - 2022.04",
+            "project_name":"前十字韧带撕裂诊断",
+            "project_role":"",
+            "project_desc":"通过MRI图像的某一视角（每个人张数不一样）进行前十字韧带撕裂诊断（三分类）。",
+            "project_content":"发现以往研究均采用按图片切分训练测试集再进行图片分类并投票，重新采用按人切分的方法（同时保持图片切分比例与人切分比例相近）；采用序列罚权矩阵，并根据新的混淆矩阵进行罚权改进；设计Gauss Layer学习一个人所有切片的均值和方差，作为切片注意力分布，对个人图像特征优化，效果提升显著。",
             "dataIndex":1
         },
         {
-            "project_time":"2022.10 - 2022.12",
-            "project_name":"航行通告解析程序",
-            "project_role":"项目负责人",
-            "project_desc":"根据航行通告原始数据，提取E项内容，抽取出航行通告的实体，动作，原因，限制条件，跑道实体。",
-            "project_content":"负责项目从 0 到 1 的开发、项目流程设计，接口设计与分工，推动项目进度。\n数据预处理；E项分句（通过预测标点符号进行初分句，正则纠正模型分句错误并给出错误类型，规则判断是否使用分句并给出原因）；文本摘要；接口整合。",
-            "dataIndex":2
-        },
-        {
-            "project_time":"2022.07 - 2022.09",
+            "project_time":"2022.04 - 2022.09",
             "project_name":"小样本学习的量化样本注意力网络",
-            "project_role":"核心开发者",
-            "project_desc":"解决当前的小样本学习中由于任务分布偏移造成的特征过拟合等问题。",
-            "project_content":"采用VQ模块来维持一个没有分类器偏差的特征空间，样本注意模块通过一个episode中的样本之间的关系来学习更适合分类的判别性特征。",
-            "dataIndex":3
+            "project_role":"",
+            "project_desc":"Vector Quantized Sample Attention Network（VQSAN）小样本学习网络，通过矢量量化（VQ）模块和样本注意（SA）模块来解决当前的小样本学习中由于任务分布偏移造成的特征过拟合等问题，从而获得更好的性能。",
+            "project_content":"\n设计并实现了VQSAN框架，包括矢量量化模块和样本注意模块，并在多个标准基准数据集上进行了实验，证明了VQSAN的有效性。",
+            "dataIndex":1
         }
     ],
     "workList":[
 
     ],
     "aboutme":{
-        "aboutme_desc":"🌱 有大型项目经验，专注于深度学习算法研究及后端开发领域，熟悉Transformer等深度神经网络模型，熟悉Golang/Python/C++编程语言。\n🌱 研究方向：迁移学习（小样本学习）、多模态学习。\n1. 项目管理: 具有独立跟进和推动项目进度经验，把控研发测试交付进展。\n2. 算法调优经验: 模型改进和部署经验丰富，也能完成定制诉求。\n3. 后端研发经验：熟悉前后端分离的开发模式。\n4. 学习能力强，实时跟进领域内最新论文及科研成果。\n5. 实践动手能力强。\n6. 沟通合作能力良好，与团队融洽相处。"
+        "aboutme_desc":"🌱 有项目经验，熟悉Transformer等深度神经网络模型，熟悉Golang/Python/C++编程语言。\n🌱 研究方向：小样本学习、多模态融合。\n1. 算法调优经验：能对模型改进和部署，完成定制诉求。\n2. 后端研发经验：熟悉前后端分离的开发模式。\n3. 学习能力强，实时跟进领域内最新论文及科研成果。"
     },
     "theme":{
         "color":"#2f5785",
